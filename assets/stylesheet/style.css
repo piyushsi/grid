@@ -247,7 +247,7 @@ body {
 .content12 {
 	grid-column: 1 / 3;
     grid-row:11/ 13;
-    background-color: #ECAF4E	;
+    background-color: #ECAF4E;
 }
 .content13 {
 	grid-column: 3 / 5;
@@ -358,8 +358,8 @@ body {
     grid-row: 15 / 17;
     background-color: #E5613E;   
 }
-iframe{
-	padding: 2rem 15rem;
+iframe {
+	padding: 2rem 8rem;
 	width: 70%;
 }
 .content18 {
@@ -375,4 +375,22 @@ iframe{
 .content18 i {
 	padding: 1rem;
 	text-align: center;
+}
+@media all and (max-width:768px) {
+html {
+	font-size:  8px;
+}
+iframe{
+	padding: 2rem 5rem;
+	width: 55%;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 110%;
+}
+.content1,.content4,.content10,.content13,.content15 {
+	height: 500px;
+	background-size: cover;
+}
 }
